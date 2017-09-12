@@ -1,0 +1,22 @@
+h1 {
+  text-align:center;
+  font-family:'Libre Barcode 128', cursive;
+  font-size: 56px
+}
+h1.name{
+  background: -webkit-linear-gradient(top, #878787, #000);
+  background: linear-gradient(top, #878787, #000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+body{
+  background: linear-gradient(270deg, #ffffff, #000000);
+  background-size: 400% 400%;
+  animation: gradientanimation 31s ease infinite;
+  }
+  @keyframes gradientanimation {
+      0%{background-position:0% 50%}
+      50%{background-position:100% 50%}
+      100%{background-position:0% 50%}
+  }
