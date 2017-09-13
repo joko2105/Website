@@ -1,13 +1,21 @@
+
 h1 {
-  margin-top: 400px;
-  text-align: center;
+
   color:white;
   font-family:'Libre Barcode 128', cursive;
   font-size: 56px
 }
 
-
-body{
+a {
+  text-align: center;
+  color:white;
+  font-family:'Abel';
+  font-size: 26px;
+}
+#dank{
+  text-align: center;
+}
+.gradient {
   background: linear-gradient(270deg, #27363b, #eb4960);
   background-size: 400% 400%;
   animation: gradientanimation 31s ease infinite;
