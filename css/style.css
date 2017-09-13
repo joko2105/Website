@@ -1,20 +1,30 @@
 
 h1 {
-
+  text-align: center;
   color:white;
-  font-family:'Libre Barcode 128', cursive;
+  font-family:'Abel';
   font-size: 56px
 }
+a{
+  text-decoration: none;
+}
 
-a {
+h2:hover{
+  color: #ff7700;
+}
+
+h2 {
   text-align: center;
   color:white;
   font-family:'Abel';
   font-size: 26px;
 }
+
 #dank{
   text-align: center;
+
 }
+
 .gradient {
   background: linear-gradient(270deg, #27363b, #eb4960);
   background-size: 400% 400%;
